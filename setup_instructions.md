@@ -36,19 +36,27 @@ or
 
 ### Installation
 
-1. Download the enviroment file from #GITHUB REPO and create an enviroment with the following command:
+1. Download the enviroment file from https://github.com/hllelli2/powerfit-installation-guide/ 
+
+    ```bash
+    wget "https://github.com/hllelli2/powerfit-installation-guide/blob/master/powerfit_env.yml"
+    # or with curl
+    curl -LO "https://github.com/hllelli2/powerfit-installation-guide/blob/master/powerfit_env.yml"
+    ```
+
+2. Download the enviroment file from #GITHUB REPO and create an enviroment with the following command:
 
     ```
     conda env create -f powerfit_env.yml --name PfGPU_1912935144935
     ```
 
-2. Activate the enviroment with the following command:
+3. Activate the enviroment with the following command:
 
     ```
     conda activate PfGPU_1912935144935
     ```
 
-2. Clone the repository of gpyfft and install it 
+4. Clone the repository of gpyfft and install it 
     ```bash
     git clone https://github.com/hllelli2/gpyfft.git
     cd gpyfft
@@ -56,7 +64,7 @@ or
     cd ..
     ```
 
-4. Clone the repository of PowerFit and install it 
+5. Clone the repository of PowerFit and install it 
     ```bash
     git clone https://github.com/hllelli2/powerfit38.git
     cd powerfit38
