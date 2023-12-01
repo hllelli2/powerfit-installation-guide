@@ -44,7 +44,7 @@ or
     curl -LO "https://github.com/hllelli2/powerfit-installation-guide/blob/master/powerfit_env.yml"
     ```
 
-2. Download the enviroment file from #GITHUB REPO and create an enviroment with the following command:
+2. Create an enviroment with the following command:
 
     ```
     conda env create -f powerfit_env.yml --name PfGPU_1912935144935
