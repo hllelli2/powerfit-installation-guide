@@ -41,7 +41,7 @@ or
     ```bash
     wget "https://github.com/hllelli2/powerfit-installation-guide/blob/master/ENV.yml"
     # or with curl
-    curl -LO "https://github.com/hllelli2/powerfit-installation-guide/blob/master/powerfit_env.yml"
+    curl -LO "https://github.com/hllelli2/powerfit-installation-guide/blob/master/ENV.yml"
     ```
 
 2. Create an enviroment with the following command:
@@ -49,7 +49,7 @@ or
     ```
     conda env create -f ENV.yml --name 1912935144935
     ```
-
+S
 3. Activate the enviroment with the following command:
 
     ```
